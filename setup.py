@@ -10,6 +10,7 @@ import sys
 
 from datetime import datetime
 from subprocess import Popen, PIPE
+
 from setuptools import setup, find_packages
 from setuptools.command.build_py import build_py
 
@@ -83,7 +84,7 @@ setup(
     setup_requires=['rnc2rng>=2.2'],
     install_requires=['lxml'],
     provides=[PACKAGE],
-    #test_suite='nose.collector',
+    # test_suite='nose.collector',
 
     author='Brecht Machiels',
     author_email='brecht@mos6581.org',
@@ -92,7 +93,7 @@ setup(
     url='https://github.com/brechtm/citeproc-py',
     keywords='csl citation html rst bibtex xml',
     license='2-clause BSD License',
-    classifiers = [
+    classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
         'Environment :: Other Environment',
