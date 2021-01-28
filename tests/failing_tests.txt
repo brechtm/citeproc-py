@@ -50,7 +50,6 @@ bugreports_NonBreakingSpaceJoinFail                                # uncaught ex
 bugreports_NoTitle
 bugreports_NumberAffixEscape
 bugreports_NumberInMacroWithVerticalAlign
-bugreports_NumericStyleFirstRefMultipleCiteFailure                 # uncaught exception
 bugreports_OldMhraDisambiguationFailure
 bugreports_parenthesis
 bugreports_parseName
